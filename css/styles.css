@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0d4cc;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header.jumbotron {
+    background: url('images/header-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #000000;
+    <!-- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); -->
+}
+
+header .btn {
+    background-color: #000000;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #e0d4cc;
+    color: #e0d4cc;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000000;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #adb5bd;
+}
+
+.main-container {
+    padding: 30px 0;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
