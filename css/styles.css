@@ -23,7 +23,7 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #0056b3;
+    background-color: #6733a3;
 }
 
 footer {
@@ -59,7 +59,7 @@ footer {
 }
 
 .animated {
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: both;
 }
 
