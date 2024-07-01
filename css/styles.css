@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e0d4cc;
+    background-color: #0d0018;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -15,7 +15,7 @@ header.jumbotron {
 }
 
 header .btn {
-    background-color: #000000;
+    background-color: #6733a3;
     border: none;
     font-size: 1.2rem;
     padding: 10px 20px;
@@ -23,16 +23,20 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #6733a3;
+    background-color: #271936;
 }
 
 footer {
-    background-color: #e0d4cc;
+    background-color: #1c0b2e;
     color: #e0d4cc;
 }
 
+.navbar-nav {
+    color: #6733a3;
+}
+
 .navbar-nav .nav-item .nav-link {
-    color: #000000;
+    color: #ffffff;
 }
 
 .navbar-nav .nav-item .nav-link:hover {

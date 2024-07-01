@@ -3,63 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Home - Computer Science Student</title>
+    <title>Amit Bhongiri | Computer Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">CS Student</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <header class="parallax jumbotron text-center text-black d-flex align-items-center justify-content-center">
-        <div class="animated fadeInUp">
-            <h1>Welcome to My Website</h1>
-            <p class="lead">Hello! I'm a computer science student passionate about coding and technology.</p>
-            <a href="#main-content" class="btn btn-primary mt-4">Learn More</a>
+    <header>
+        <div class="container">
+            <h1>Amit Bhongiri</h1>
+            <p>Computer Science Student</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <main id="main-content" class="container my-5">
-        <div class="row">
-            <div class="col-md-8 mx-auto text-center">
+
+    <main>
+        <section id="about" class="parallax" style="background-image: url('about-bg.jpg');">
+            <div class="container">
                 <h2>About Me</h2>
-                <p class="animated fadeInUp" class = "text-white">Explore my projects and blog to learn more about my work.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-        </div>
+        </section>
+
+        <section id="skills" class="parallax" style="background-image: url('skills-bg.jpg');">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <i class="fas fa-code"></i>
+                        <h4>Programming Languages</h4>
+                        <p>JavaScript, Python, Java</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, React</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-database"></i>
+                        <h4>Databases</h4>
+                        <p>MySQL, MongoDB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="parallax" style="background-image: url('projects-bg.jpg');">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project" data-project="1">
+                        <h3>Project 1</h3>
+                        <p>Description of project 1.</p>
+                    </div>
+                    <div class="project" data-project="2">
+                        <h3>Project 2</h3>
+                        <p>Description of project 2.</p>
+                    </div>
+                    <div class="project" data-project="3">
+                        <h3>Project 3</h3>
+                        <p>Description of project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="parallax" style="background-image: url('contact-bg.jpg');">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:jane.doe@example.com">jane.doe@example.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/janedoe">linkedin.com/in/janedoe</a></p>
+            </div>
+        </section>
     </main>
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Computer Science Student | Follow me on 
-            <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-github"></i></a>
-        </p>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jane Doe</p>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-    
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-    
+
+    <!-- Modals for Projects -->
+    <div id="project-modal-1" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="1">&times;</span>
+            <h2>Project 1</h2>
+            <p>Detailed description of project 1.</p>
+        </div>
+    </div>
+
+    <div id="project-modal-2" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="2">&times;</span>
+            <h2>Project 2</h2>
+            <p>Detailed description of project 2.</p>
+        </div>
+    </div>
+
+    <div id="project-modal-3" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="3">&times;</span>
+            <h2>Project 3</h2>
+            <p>Detailed description of project 3.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
