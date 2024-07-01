@@ -13,6 +13,23 @@ body {
     margin: 0 auto;
 }
 
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1.5s ;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 header {
     background: #1f1f1f;
     color: white;
@@ -129,6 +146,8 @@ footer {
 .modal {
     display: none;
     position: fixed;
+    padding: 1.5em;
+    border-radius: 10px;
     z-index: 1001;
     left: 0;
     top: 0;
@@ -141,9 +160,11 @@ footer {
 
 .modal-content {
     background-color: #1f1f1f;
+    /*padding: 1.5em; 20px*/
+    border-radius: 10px;
     margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
+    padding: 1.5em;
+    border: 2px solid #5f00c4;
     width: 80%;
     color: white;
 }
