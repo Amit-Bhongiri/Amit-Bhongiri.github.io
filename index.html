@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" >
+    
+    
     <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Amit Bhongiri</h1>
-            <p>Computer Science Student</p>
+            <p>Computer Science Student at UC Davis</p>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="about" class="parallax" style="background-image: url('about-bg.jpg');">
+        <section id="about">
             <div class="container">
                 <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -60,15 +62,15 @@
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project-grid">
-                    <div class="project" data-project="1">
+                    <div class="project slidetransition" data-project="1">
                         <h3>Project 1</h3>
                         <p>Description of project 1.</p>
                     </div>
-                    <div class="project" data-project="2">
+                    <div class="project slidetransition" data-project="2">
                         <h3>Project 2</h3>
                         <p>Description of project 2.</p>
                     </div>
-                    <div class="project" data-project="3">
+                    <div class="project slidetransition" data-project="3">
                         <h3>Project 3</h3>
                         <p>Description of project 3.</p>
                     </div>
@@ -76,18 +78,23 @@
             </div>
         </section>
 
-        <section id="contact" class="parallax hidden" style="background-image: url('contact-bg.jpg');">
+        <section id="resume" class="parallax hidden" style="background-image: url('contact-bg.jpg');">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Email: <a href="mailto:bhongiriamit@gmail.com">bhongiriamit@gmail.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/amitej-bhongiri-8061aa1b9/">linkedin.com/in/Amit Bhongiri</a></p>
+                <h2>Resume</h2>
+                <p>STILL IN PROGRESS</p>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Amit Bhongiri</p>
+            <p>Copyright &copy; 2024 |&nbsp
+                <a href="https://www.linkedin.com/in/amitej-bhongiri-8061aa1b9/" style="color:white" title="Amit Bhongiri on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                &nbsp
+                <a href="https://github.com/Amit-Bhongiri" style="color:white" title="Amit Bhongiri on Github"><i class="fab fa-github"></i></a>
+                &nbsp
+                <a href="mailto: bhongiriamit@gmail.com" style="color:white" title="Email Amit Bhongiri"><i class="fas fa-envelope"></i></a>
+            </p>
         </div>
     </footer>
 
