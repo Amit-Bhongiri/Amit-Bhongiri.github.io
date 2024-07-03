@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
 }
 
+/*transitions*/
 .hidden {
     opacity: 0;
     transform: translateX(-100%);
@@ -30,17 +31,9 @@ body {
     }
 }
 
-/* Animations 
-.slidetransition:nth-child(2) {
-    transition-delay: 200ms;
-}
-.slidetransition:nth-child(3) {
-    transition-delay: 300ms;
-}
-.slidetransition:nth-child(4) {
-    transition-delay: 400ms;
-}
-*/
+img.rounded-corners {
+    border-radius: 5px;
+  }
 
 header {
     background: #1f1f1f;
@@ -109,12 +102,6 @@ section h2 {
     animation: fadeInDown 1s ease-in-out;
 }
 
-.parallax {
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
-
 footer {
     background-color: #1f1f1f;
     color: white;
@@ -122,6 +109,7 @@ footer {
     padding: 1em 0;
 }
 
+/* Animations for projects and skills */
 .project-grid, .skills-grid {
     display: flex;
     flex-wrap: wrap;
