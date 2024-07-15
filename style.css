@@ -68,37 +68,56 @@ header .container {
     align-items: center;
 }
 
-header p.alignleft {
+
+header p{
     margin: 0;
     font-size: 1.5em;
     color: white;
 }
 
 nav ul {
+    display: flex;
+    align-items: center;
     list-style: none;
     padding: 0;
-    margin: 1em 0 0 2;
-    display: flex;
-    justify-content: end;   
+    margin: 0;
 }
 
 nav ul li {
     margin: 0 1em;
     color: white;
     font-size: 1.2em;
-    transition: color 0.3s ease;
-    justify-content: end;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
-    justify-content: end;
 }
 
 nav ul li a:hover {
     color: #5f00c4;
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav.alignright ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header nav.alignright ul li {
+        margin: 5px 0;
+    }
 }
 
 section {
