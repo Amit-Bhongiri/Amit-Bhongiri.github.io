@@ -13,16 +13,16 @@
 <body>
     <header>
         <div class="container">
-            <h1>Amit Bhongiri</h1>
-            <h2>Computer Science Student at UC Davis </h2>
-            <nav>
-                <ul>
+            <p class = "alignleft">Amit Bhongiri</p>
+            <nav class = "alignright">
+                <ul class = "alignright">
                     <li><a href="#about">About</a></li>
                     <li><a href="#Internships & Experiences">Internships & Experiences</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#resume">Resume</a></li>
                 </ul>
             </nav>
+            <div style="clear: both;"></div>
         </div>
     </header>
 
@@ -38,22 +38,22 @@
             <div class="container">
                 <h2>Internships & Experiences</h2>
                 <div class="project-grid">
-                    <div class="project" data-project="1">
+                    <div class="skill" data-skill="1">
                         <img style="max-width: 60px; height: auto;" src="images/Mapsi.png" alt="Mapsi Photonics" class = "rounded-corners">
                         <h3>Mapsi Photonics</h3>
                         <p>Software Developer Intern</p>
                     </div>
-                    <div class="skill project">
+                    <div class="skill" data-skill="2">
                         <img style="max-width: 60px; height: auto;" src="images/Softpath.png" alt="Softpath System LLC" class = "rounded-corners">
                         <h3>Softpath Systems</h3>
                         <p>Software Development Intern</p>
                     </div>
-                    <div class="skill project">
+                    <div class="skill" data-skill="3">
                         <img style="max-width: 60px; height: auto;" src="images/GDSC.png" alt="Softpath System LLC" class = "rounded-corners">
                         <h3>Google Developer Student Club</h3>
                         <p>Technology Director</p>
                     </div>
-                    <div class="skill project">
+                    <div class="skill" data-skill="4">
                         <img style="max-width: 60px; height: auto;" src="images/Neurotech.png" alt="Softpath System LLC" class = "rounded-corners">
                         <h3>Neurotech @ Davis</h3>
                         <p>Project Team Member</p>
@@ -103,38 +103,34 @@
     </footer>
 
 
-    <!-- Modals for Internship/Experiences -->
-    <div id="internship-modal-1" class="modal">
-        <div class="modal-content">
-            <span class="close" data-close="1">&times;</span>
-            <h2>Software Developer Intern</h2>
-            <p>Detailed description of project 1. geeker</p>
-        </div>
+<!-- Modals for Internships/Experiences -->
+<div id="skill-modal-1" class="modal">
+    <div class="modal-content">
+        <h2>Mapsi Photonics - Software Developer Intern</h2>
+        <p>Detailed description of the internship at Mapsi Photonics.</p>
     </div>
+</div>
 
-    <div id="internship-modal-2" class="modal">
-        <div class="modal-content">
-            <span class="close" data-close="2">&times;</span>
-            <h2>Project 2</h2>
-            <p>Detailed description of project 2.</p>
-        </div>
+<div id="skill-modal-2" class="modal">
+    <div class="modal-content">
+        <h2>Softpath Systems - Software Development Intern</h2>
+        <p>Detailed description of the internship at Softpath Systems.</p>
     </div>
+</div>
 
-    <div id="internship-modal-3" class="modal">
-        <div class="modal-content">
-            <span class="close" data-close="3">&times;</span>
-            <h2>Project 3</h2>
-            <p>Detailed description of project 3.</p>
-        </div>
+<div id="skill-modal-3" class="modal">
+    <div class="modal-content">
+        <h2>Google Developer Student Club - Technology Director</h2>
+        <p>Detailed description of the role at Google Developer Student Club.</p>
     </div>
+</div>
 
-    <div id="internship-modal-4" class="modal">
-        <div class="modal-content">
-            <span class="close" data-close="3">&times;</span>
-            <h2>Project 3</h2>
-            <p>Detailed description of project 4.</p>
-        </div>
+<div id="skill-modal-4" class="modal">
+    <div class="modal-content">
+        <h2>Neurotech @ Davis - Project Team Member</h2>
+        <p>Detailed description of the role at Neurotech @ Davis.</p>
     </div>
+</div>
 
     <!-- Modals for Projects -->
     <div id="project-modal-1" class="modal">

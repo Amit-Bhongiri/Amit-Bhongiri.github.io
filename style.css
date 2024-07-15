@@ -9,8 +9,15 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }
 
 /*transitions*/
@@ -38,6 +45,8 @@ img.rounded-corners {
 header {
     background: #1f1f1f;
     color: white;
+    display: inline-block;
+    justify-content: space-between;
     padding: 1em 0;
     text-align: center;
     position: fixed;
@@ -53,35 +62,39 @@ header.sticky {
     background: #272727;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font-family: 'Montserrat', sans-serif;
-    animation: fadeIn 1s ease-in;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header p {
+header p.alignleft {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    color: white;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 1em 0 0 0;
+    margin: 1em 0 0 2;
     display: flex;
-    justify-content: center;
+    justify-content: end;   
 }
 
 nav ul li {
     margin: 0 1em;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+    justify-content: end;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1em;
     transition: color 0.3s ease;
+    justify-content: end;
 }
 
 nav ul li a:hover {
@@ -112,7 +125,9 @@ footer {
 /* Animations for projects and skills */
 .project-grid, .skills-grid {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    flex-shrink: 2;
     gap: 1.5em;
 }
 
@@ -132,7 +147,7 @@ footer {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-.project h3, .skill h4 {
+.project h3, .skill h3 {
     margin-top: 0;
     color: #bd93f9;
 }
@@ -143,13 +158,6 @@ footer {
     color: #5f00c4;
 }
 
-.leftfooter {
-    text-align: left;
-}
-
-.rightfooter {
-    text-align: right;
-}
 /* Modal styles */
 .modal {
     display: none;

@@ -17,6 +17,7 @@ window.onscroll = function() {
 };
 
 const projects = document.querySelectorAll('.project');
+const skill = document.querySelectorAll('.skill');
 const modals = document.querySelectorAll('.modal');
 const closeButtons = document.querySelectorAll('.close');
 
@@ -24,6 +25,13 @@ projects.forEach(project => {
     project.addEventListener('click', function() {
         const projectNumber = this.getAttribute('data-project');
         document.getElementById(`project-modal-${projectNumber}`).style.display = 'block';
+    });
+});
+
+skill.forEach(skill => {
+    skill.addEventListener('click', function() {
+        const skillNumber = this.getAttribute('data-skill');
+        document.getElementById(`skill-modal-${skillNumber}`).style.display = 'block';
     });
 });
 
