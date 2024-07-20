@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ img.rounded-corners {
   }
 
 header {
-    background: #1f1f1f;
+    background: #1b1b1b;
     color: white;
     display: inline-block;
     justify-content: space-between;
