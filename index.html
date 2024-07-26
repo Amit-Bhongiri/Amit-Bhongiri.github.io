@@ -1,178 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit Bhongiri | Computer Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" >
-    <script defer src="scripts.js"></script>
-</head>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<body>
-    <header>
-        <div class="container">
-            <p>Amit Bhongiri</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#Internships & Experiences">Internships & Experiences</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="Amit Bhongiri Resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </nav>
-    </div>
-    </header>
+    <title>MINIMAL - Free Bootstrap 3 Theme</title>
 
-    <main>
-        <section id="about">
-            <div class="container">
-                <h2>ABOUT ME</h2>
-                <p>Hello! I'm Amitej Bhongiri, a passionate and driven computer science student with a deep interest in software development, artificial intelligence, and cybersecurity. Currently pursuing my degree at [Your University], I am committed to using technology to create innovative solutions that can make a positive impact on the world.
-                    <h3>My Journey</h3>
-                    From a young age, I've been fascinated by the endless possibilities of technology. This curiosity led me to explore various programming languages, including Java, Python, and C++, and to master frameworks like React and Node.js. My academic and practical experiences have given me a well-rounded understanding of both front-end and back-end development.
-                    
-                    <h3>My Passion</h3>
-                    I am particularly passionate about machine learning, cybersecurity, and cloud computing. I believe these areas have the potential to revolutionize industries and improve lives. I am always eager to learn more and stay updated with the latest advancements in these fields.
-                    
-                    <h3>Let's Connect</h3>
-                    I am always looking for new challenges and opportunities to grow. If you have an interesting project, collaboration idea, or just want to chat about the latest in tech, feel free to reach out. Let's innovate and create something amazing together!
-                    
-                    Thank you for visiting my portfolio. I look forward to connecting with you!</p>
-            </div>
-        </section>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-        <section id="Internships & Experiences" class="hidden">
-            <div class="container">
-                <h2>INTERNSHIPS & EXPERIENCES</h2>
-                <div class="project-grid">
-                    <div class="skill" data-skill="1">
-                        <img style="max-width: 60px; height: auto;" src="images/Mapsi.png" alt="Mapsi Photonics" class = "rounded-corners">
-                        <h3>Mapsi Photonics</h3>
-                        <p>Software Developer Intern</p>
-                    </div>
-                    <div class="skill" data-skill="2">
-                        <img style="max-width: 60px; height: auto;" src="images/Softpath.png" alt="Softpath System LLC" class = "rounded-corners">
-                        <h3>Softpath Systems</h3>
-                        <p>Software Development Intern</p>
-                    </div>
-                    <div class="skill" data-skill="3">
-                        <img style="max-width: 60px; height: auto;" src="images/GDSC.png" alt="Softpath System LLC" class = "rounded-corners">
-                        <h3>Google Developer Student Club</h3>
-                        <p>Technology Director</p>
-                    </div>
-                    <div class="skill" data-skill="4">
-                        <img style="max-width: 60px; height: auto;" src="images/Neurotech.png" alt="Softpath System LLC" class = "rounded-corners">
-                        <h3>Neurotech @ Davis</h3>
-                        <p>Project Team Member</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <section id="projects" class="hidden">
-            <div class="container">
-                <h2>PROJECTS</h2>
-                <div class="project-grid">
-                    <div class="project slidetransition" data-project="1">
-                        <h3>Python Object Detection</h3>
-                        <p>An application which detects objects in real time using the YOLO algorithm and the OpenCV library in Python.</p>
-                    </div>
-                    <div class="project slidetransition" data-project="2">
-                        <h3>Chess App with AI Opponent</h3>
-                        <p>A chess application which has the option to either play against another person or AI.</p>
-                    </div>
-                    <!--
-                    <div class="project slidetransition" data-project="3">
-                        <h3>Project 3</h3>
-                        <p>Description of project 3.</p>
-                    </div>
-                    -->
-                </div>
-            </div>
-        </section>
-    </main>
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	
 
-    <footer>
-        <div class="container">
-            <p>Copyright &copy; 2024 |&nbsp
-                <a href="https://www.linkedin.com/in/amitej-bhongiri-8061aa1b9/" style="color:white" title="Amit Bhongiri on LinkedIn"><i class="fab fa-linkedin"></i></a>
-                &nbsp
-                <a href="https://github.com/Amit-Bhongiri" style="color:white" title="Amit Bhongiri on Github"><i class="fab fa-github"></i></a>
-                &nbsp
-                <a href="mailto: bhongiriamit@gmail.com" style="color:white" title="Email Amit Bhongiri"><i class="fas fa-envelope"></i></a>
-            </p>
-        </div>
-    </footer>
+	
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Minimal</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-dribbble"></i></a>
+			<a href="#"><i class="icon-envelope"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
 
 
-<!-- Modals for Internships/Experiences -->
-<div id="skill-modal-1" class="modal">
-    <div class="modal-content">
-        <h2>Mapsi Photonics - Software Developer Intern</h2>
-        <p>As a Software Developer Intern at Mapsi Photonics in Barcelona, Spain, I honed my skills in advanced image processing and computer vision. My key contributions included applying TensorFlow and OpenCV techniques to enhance image interpretation. Additionally, I engaged in the mechanical design of electrochemical devices, focusing on optical filters for infrared detection. One of my significant achievements was optimizing a region-based convolutional neural network (CNN) to improve the identification of significant areas within images, thereby advancing the system's precision in object detection.</p>
-    </div>
-</div>
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="logo">
+				<img src="assets/img/logo.png">
+			</div>
+			<br>
+			<div class="row">
+				<h1>MINIMAL THEME</h1>
+				<br>
+				<h3>Hello, I'm Carlos. I love design.</h3>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+	
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>A full time theme crafter based in Madrid, Spain. I love designing beautiful, clean and user-friendly interfaces for websites.</p>
+					<p>My passion is turning good ideas and products into eye-catching sites.</p>
+					<p>Sometimes I blog about design and web trends. Also I share links and my thoughts on <a href="http://twitter.com/BlackTie_co">Twitter</a>. Need a free handsome bootstrap theme? <a href="http://blacktie.co">Done!</a></p>
+					<p>I'm available for freelance jobs. Contact me now.</p>
+					<p><button type="button" class="btn btn-warning">I HAVE A FREELANCE JOB</button></p>
+				</div>								
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+	
 
-<div id="skill-modal-2" class="modal">
-    <div class="modal-content">
-        <h2>Softpath Systems - Software Development Intern</h2>
-        <p>During my internship as a Software Developer at Softpath Systems in Marietta, GA, I worked on pre-processing multiple resume datasets to ensure data consistency and quality for model training. I explored various machine learning algorithms and methodologies using TensorFlow and Scikit-Learn to create predictive models for ranking resumes based on job relevance. Through training and fine-tuning these models, I achieved a 45% accuracy rate in resume ranking, showcasing my ability to handle complex data sets and implement effective machine learning solutions.</p>
-    </div>
-</div>
+	<!-- ========== CAROUSEL SECTION ========== -->	
+	<section id="portfolio" name="portfolio"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<h3>SOME PROJECTS</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active centered">
+								<img class="img-responsive" src="assets/img/c1.png" alt="">
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="assets/img/c2.png" alt="">
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="assets/img/c3.png" alt="">
+							</div>
+						</div>
+						<br>
+						<br>
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+					</div>
+				</div><!-- col-lg-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>	<!-- f -->
 
-<div id="skill-modal-3" class="modal">
-    <div class="modal-content">
-        <h2>Google Developer Student Club - Technology Director</h2>
-        <p>As the Executive Tech Lead for the Google Developer Student Club at UC Davis, I led a team of five students in designing and implementing an AI chatbot project. This chatbot responded to user queries based on a dataset with a 72% accuracy rate, demonstrating our application of cutting-edge AI technology. My role involved extensive project management, including the use of agile methodologies and version control systems like Git. I spearheaded project planning, delegated tasks, and ensured efficient team communication, fostering a collaborative and innovative environment.</p>
-    </div>
-</div>
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Some Avenue, 987<br/>Madrid, Spain<br/>+34 8984-4343</p>
+					<p>iam@awesomemail.com</p>
+					<p><button type="button" class="btn btn-warning">YEAH! CONTACT ME NOW!</button></p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<div id="skill-modal-4" class="modal">
-    <div class="modal-content">
-        <h2>Neurotech @ Davis - Project Team Member</h2>
-        <p>At Neurotech@Davis, I contributed to pioneering projects at the intersection of neuroscience and technology. My involvement included developing software solutions and algorithms to enhance neurotech applications. This experience allowed me to apply my computer science skills to real-world problems, collaborate with multidisciplinary teams, and gain insights into the emerging field of neurotechnology. Through this role, I deepened my understanding of how technology can interface with biological systems to advance healthcare and scientific research.</p>
-    </div>
-</div>
+	
 
-    <!-- Modals for Projects -->
-    <div id="project-modal-1" class="modal">
-        <div class="modal-content">
-            <h2>Python Object Detection</h2>
-            <p>In this project, I implemented real-time object detection using the YOLO (You Only Look Once) algorithm integrated with OpenCV in Python. The system identifies and labels multiple objects within an image or video stream with high accuracy and speed.</p>
-            <h3>Key Features</h3>
-            <ul>
-                <li>YOLO Algorithm: Utilized for its efficiency and capability to detect objects in a single forward pass through the network.</li>
-                <li>OpenCV Integration: Leveraged for image processing and visualization of detection results.</li>
-                <li>Real-time Video Detection: Achieved through optimized code, detecting objects in live video streams from a webcam.</li>
-            </ul>
-            <p>Python, YOLO, OpenCV</p>
-        </div>
-    </div>
-
-    <div id="project-modal-2" class="modal">
-        <div class="modal-content">
-            <h2>Chess Application with AI opponent</h2>
-            <p>In this project, I implemented real-time object detection using the YOLO (You Only Look Once) algorithm integrated with OpenCV in Python. The system identifies and labels multiple objects within an image or video stream with high accuracy and speed.</p>
-            <h3>Key Features</h3>
-            <ul>
-                <li>User Interface: Created with HTML and CSS for an intuitive and responsive design.</li>
-                <li>Game Logic: Implemented using JavaScript for managing chess rules and player interactions.</li>
-                <li>AI Opponent: Integrated Groq AI to enable players to compete against a sophisticated artificial intelligence.</li>
-            </ul>
-            <p>HTML, CSS, Javascript, Groq AI API</p>
-        </div>
-    </div>
-    <!--
-    <div id="project-modal-3" class="modal">
-        <div class="modal-content">
-            <h2>Project 3</h2>
-            <p>Detailed description of project 3.</p>
-        </div>
-    </div>
-    -->
-
-    <script src="scripts.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
