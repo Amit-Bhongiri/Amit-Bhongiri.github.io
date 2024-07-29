@@ -1,178 +1,476 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit Bhongiri | Computer Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" >
-    <script defer src="scripts.js"></script>
-</head>
-
-<body>
-    <header>
-        <div class="container">
-            <p>Amit Bhongiri</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#Internships & Experiences">Internships & Experiences</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="Amit Bhongiri Resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </nav>
-    </div>
-    </header>
-
-    <main>
-        <section id="about">
-            <div class="container">
-                <h2>ABOUT ME</h2>
-                <p>Hello! I'm Amitej Bhongiri, a passionate and driven computer science student with a deep interest in software development, artificial intelligence, and cybersecurity. Currently pursuing my degree at [Your University], I am committed to using technology to create innovative solutions that can make a positive impact on the world.
-                    <h3>My Journey</h3>
-                    From a young age, I've been fascinated by the endless possibilities of technology. This curiosity led me to explore various programming languages, including Java, Python, and C++, and to master frameworks like React and Node.js. My academic and practical experiences have given me a well-rounded understanding of both front-end and back-end development.
-                    
-                    <h3>My Passion</h3>
-                    I am particularly passionate about machine learning, cybersecurity, and cloud computing. I believe these areas have the potential to revolutionize industries and improve lives. I am always eager to learn more and stay updated with the latest advancements in these fields.
-                    
-                    <h3>Let's Connect</h3>
-                    I am always looking for new challenges and opportunities to grow. If you have an interesting project, collaboration idea, or just want to chat about the latest in tech, feel free to reach out. Let's innovate and create something amazing together!
-                    
-                    Thank you for visiting my portfolio. I look forward to connecting with you!</p>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>Amit Bhongiri | Software Engineer</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area" section id = "home">
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" width = 100px height = 30px alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#about">About</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#experiences">Experiences</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+								<li class="nav-item"><a class="nav-link" href="Amit Bhongiri Resume.pdf" target ="_blank">Resume</a></li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+           	<div class="container box_1620">
+           		<div class="banner_inner d-flex align-items-center">
+					<div class="banner_content">
+						<div class="media">
+							<div class="d-flex">
+								<img src="img/personal.jpg" class = roundedImage width = 550px height = 620px alt="">
+							</div>
+							<div class="media-body">
+								<div class="personal_text">
+									<h6>Hi, i'm</h6>
+									<h3>Amit Bhongiri</h3>
+									<h4>Software Engineer</h4>
+									<br>
+									<p>Coding the Future, One Line at a Time</p>
+									<ul class="list basic_info">
+										<li><a href="mailto: bhongiriamit@gmail.com"><i class="lnr lnr-envelope"></i> bhongiriamit@gmail.com</a></li>
+									</ul>
+									<ul class="list personal_social">
+										<li><a href="https://www.linkedin.com/in/amitej-bhongiri-8061aa1b9/"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://github.com/Amit-Bhongiri"><i class="fa fa-github"></i></a></li>
+										<li><a href="mailto: bhongiriamit@gmail.com"><i class="fa fa-envelope"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
         </section>
-
-        <section id="Internships & Experiences" class="hidden">
-            <div class="container">
-                <h2>INTERNSHIPS & EXPERIENCES</h2>
-                <div class="project-grid">
-                    <div class="skill" data-skill="1">
-                        <img style="max-width: 60px; height: auto;" src="images/Mapsi.png" alt="Mapsi Photonics" class = "rounded-corners">
-                        <h3>Mapsi Photonics</h3>
-                        <p>Software Developer Intern</p>
-                    </div>
-                    <div class="skill" data-skill="2">
-                        <img style="max-width: 60px; height: auto;" src="images/Softpath.png" alt="Softpath System LLC" class = "rounded-corners">
-                        <h3>Softpath Systems</h3>
-                        <p>Software Development Intern</p>
-                    </div>
-                    <div class="skill" data-skill="3">
-                        <img style="max-width: 60px; height: auto;" src="images/GDSC.png" alt="Softpath System LLC" class = "rounded-corners">
-                        <h3>Google Developer Student Club</h3>
-                        <p>Technology Director</p>
-                    </div>
-                    <div class="skill" data-skill="4">
-                        <img style="max-width: 60px; height: auto;" src="images/Neurotech.png" alt="Softpath System LLC" class = "rounded-corners">
-                        <h3>Neurotech @ Davis</h3>
-                        <p>Project Team Member</p>
-                    </div>
-                </div>
-            </div>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Welcome Area =================-->
+        <section class="welcome_area p_120"  class id = "about">
+        	<div class="container">
+        		<div class="row welcome_inner">
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Myself</h4>
+        					<p>Hello! I'm Amitej Bhongiri, a computer science student with a deep passion for technology and innovation. Currently studying at the University of California, Davis, I am dedicated to learning and applying the latest advancements in software development, artificial intelligence, and machine learning.</p>
+        					<div class="row">
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-database"></i>
+        								<h4>6</h4>
+        								<p>Coding Languages and Frameworks</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-book"></i>
+        								<h4>8</h4>
+        								<p>Total Projects</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-users"></i>
+        								<h4>1</h4>
+        								<p>Year of Experience</p>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<div class="skill_main">
+								<div class="skill_item">
+									<h4>HTML/CSS</span></h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>C++</span></h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Python</span></h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>JavaScript</span></h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Java</span></h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
         </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================My Tabs Area =================-->
+        <section class="mytabs_area p_120">
+        	<div class="container">
+        		<div class="tabs_inner">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Projects</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>July 2024 - August 2024</p>
+										</div>
+										<div class="media-body">
+											<h4>AiResults</h4>
+											<p>Software Engineer and Researcher <br />Atlanta, Georgia</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>June 2023 - August 2023</p>
+										</div>
+										<div class="media-body">
+											<h4>Mapsi Photonics</h4>
+											<p>Software Engineer <br />Barcelona, Spain</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>June 2021 - August 2021</p>
+										</div>
+										<div class="media-body">
+											<h4>Softpath Systems</h4>
+											<p>Software Engineer <br />Atlanta, Georgia</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>August 2022 - June 2025</p>
+										</div>
+										<div class="media-body">
+											<h4>Google Developer Student Club</h4>
+											<p>Technology Director <br />Davis, California</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>August 2023 - June 2024</p>
+										</div>
+										<div class="media-body">
+											<h4>Neurotech @ Davis</h4>
+											<p>Project Developer <br />Davis, California</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
 
-        <section id="projects" class="hidden">
-            <div class="container">
-                <h2>PROJECTS</h2>
-                <div class="project-grid">
-                    <div class="project slidetransition" data-project="1">
-                        <h3>Python Object Detection</h3>
-                        <p>An application which detects objects in real time using the YOLO algorithm and the OpenCV library in Python.</p>
-                    </div>
-                    <div class="project slidetransition" data-project="2">
-                        <h3>Chess App with AI Opponent</h3>
-                        <p>A chess application which has the option to either play against another person or AI.</p>
-                    </div>
-                    <!--
-                    <div class="project slidetransition" data-project="3">
-                        <h3>Project 3</h3>
-                        <p>Description of project 3.</p>
-                    </div>
-                    -->
-                </div>
-            </div>
+						<!-- Projects side of tabs-->
+						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>Python, OpenCV, YOLO</p>
+										</div>
+										<div class="media-body">
+											<h4>Object Recognition</h4>
+											
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>HTML, CSS, JS, GROK</p>
+										</div>
+										<div class="media-body">
+											<h4>Chess with AI</h4>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>MySQL, Python, Flask</p>
+										</div>
+										<div class="media-body">
+											<h4>Stock Market Analyzer</h4>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+        		</div>
+        	</div>
         </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>Copyright &copy; 2024 |&nbsp
-                <a href="https://www.linkedin.com/in/amitej-bhongiri-8061aa1b9/" style="color:white" title="Amit Bhongiri on LinkedIn"><i class="fab fa-linkedin"></i></a>
-                &nbsp
-                <a href="https://github.com/Amit-Bhongiri" style="color:white" title="Amit Bhongiri on Github"><i class="fab fa-github"></i></a>
-                &nbsp
-                <a href="mailto: bhongiriamit@gmail.com" style="color:white" title="Email Amit Bhongiri"><i class="fas fa-envelope"></i></a>
-            </p>
-        </div>
-    </footer>
-
-
-<!-- Modals for Internships/Experiences -->
-<div id="skill-modal-1" class="modal">
-    <div class="modal-content">
-        <h2>Mapsi Photonics - Software Developer Intern</h2>
-        <p>As a Software Developer Intern at Mapsi Photonics in Barcelona, Spain, I honed my skills in advanced image processing and computer vision. My key contributions included applying TensorFlow and OpenCV techniques to enhance image interpretation. Additionally, I engaged in the mechanical design of electrochemical devices, focusing on optical filters for infrared detection. One of my significant achievements was optimizing a region-based convolutional neural network (CNN) to improve the identification of significant areas within images, thereby advancing the system's precision in object detection.</p>
-    </div>
-</div>
-
-<div id="skill-modal-2" class="modal">
-    <div class="modal-content">
-        <h2>Softpath Systems - Software Development Intern</h2>
-        <p>During my internship as a Software Developer at Softpath Systems in Marietta, GA, I worked on pre-processing multiple resume datasets to ensure data consistency and quality for model training. I explored various machine learning algorithms and methodologies using TensorFlow and Scikit-Learn to create predictive models for ranking resumes based on job relevance. Through training and fine-tuning these models, I achieved a 45% accuracy rate in resume ranking, showcasing my ability to handle complex data sets and implement effective machine learning solutions.</p>
-    </div>
-</div>
-
-<div id="skill-modal-3" class="modal">
-    <div class="modal-content">
-        <h2>Google Developer Student Club - Technology Director</h2>
-        <p>As the Executive Tech Lead for the Google Developer Student Club at UC Davis, I led a team of five students in designing and implementing an AI chatbot project. This chatbot responded to user queries based on a dataset with a 72% accuracy rate, demonstrating our application of cutting-edge AI technology. My role involved extensive project management, including the use of agile methodologies and version control systems like Git. I spearheaded project planning, delegated tasks, and ensured efficient team communication, fostering a collaborative and innovative environment.</p>
-    </div>
-</div>
-
-<div id="skill-modal-4" class="modal">
-    <div class="modal-content">
-        <h2>Neurotech @ Davis - Project Team Member</h2>
-        <p>At Neurotech@Davis, I contributed to pioneering projects at the intersection of neuroscience and technology. My involvement included developing software solutions and algorithms to enhance neurotech applications. This experience allowed me to apply my computer science skills to real-world problems, collaborate with multidisciplinary teams, and gain insights into the emerging field of neurotechnology. Through this role, I deepened my understanding of how technology can interface with biological systems to advance healthcare and scientific research.</p>
-    </div>
-</div>
-
-    <!-- Modals for Projects -->
-    <div id="project-modal-1" class="modal">
-        <div class="modal-content">
-            <h2>Python Object Detection</h2>
-            <p>In this project, I implemented real-time object detection using the YOLO (You Only Look Once) algorithm integrated with OpenCV in Python. The system identifies and labels multiple objects within an image or video stream with high accuracy and speed.</p>
-            <h3>Key Features</h3>
-            <ul>
-                <li>YOLO Algorithm: Utilized for its efficiency and capability to detect objects in a single forward pass through the network.</li>
-                <li>OpenCV Integration: Leveraged for image processing and visualization of detection results.</li>
-                <li>Real-time Video Detection: Achieved through optimized code, detecting objects in live video streams from a webcam.</li>
-            </ul>
-            <p>Python, YOLO, OpenCV</p>
-        </div>
-    </div>
-
-    <div id="project-modal-2" class="modal">
-        <div class="modal-content">
-            <h2>Chess Application with AI opponent</h2>
-            <p>In this project, I implemented real-time object detection using the YOLO (You Only Look Once) algorithm integrated with OpenCV in Python. The system identifies and labels multiple objects within an image or video stream with high accuracy and speed.</p>
-            <h3>Key Features</h3>
-            <ul>
-                <li>User Interface: Created with HTML and CSS for an intuitive and responsive design.</li>
-                <li>Game Logic: Implemented using JavaScript for managing chess rules and player interactions.</li>
-                <li>AI Opponent: Integrated Groq AI to enable players to compete against a sophisticated artificial intelligence.</li>
-            </ul>
-            <p>HTML, CSS, Javascript, Groq AI API</p>
-        </div>
-    </div>
-    <!--
-    <div id="project-modal-3" class="modal">
-        <div class="modal-content">
-            <h2>Project 3</h2>
-            <p>Detailed description of project 3.</p>
-        </div>
-    </div>
-    -->
-
-    <script src="scripts.js"></script>
-</body>
+        <!--================End My Tabs Area =================-->
+        
+        <!--================Experiences =================-->
+        <section class="feature_area p_120" class id = experiences>
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>My Experiences</h2>
+        			<p>Highlighting diverse experiences in software development and machine learning, gained through internships and real-world applications</p>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>AiResults</h4>
+        					<p></p>
+        				</div>
+        			</div>
+					<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Mapsi Photonics</h4>
+        					<p>As a Software Developer Intern, I utilized TensorFlow and OpenCV to enhance computer vision through advanced image processing techniques. I also engaged in the mechanical design of electrochemical devices, specifically optical filters for infrared detection, and optimized a region-based convolutional neural network (CNN) to improve image identification.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-skyline"></i>
+        					<h4>Softpath Systems</h4>
+        					<p>In this role, I pre-processed multiple resume datasets to ensure consistency and quality for model training. I explored machine learning algorithms and methodologies, creating predictive models for resume ranking, and achieved a 45% accuracy in model training.</p>
+        				</div>
+        			</div>
+					<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Google Developer Student Club</h4>
+        					<p> I led a dynamic team to design and implement an AI chatbot project with a 72% response accuracy. This role involved project management, agile methodologies, and version control systems (e.g., Git), ensuring efficient communication and task delegation within the team.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-sketch"></i>
+        					<h4>Neurotech@Davis</h4>
+        					<p>As a projects member of Neurotech@Davis, I have been deeply involved in research concerning the intersection of neuroscience and technology. Our projects focus on using brain-computer interfaces (BCIs) and machine learning algorithms to analyze brain wave patterns and understand fear responses. This role has honed my skills in data analysis, EEG data processing, and the practical applications of neuroscience in technology.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        <!--================Home Gallery Area =================-->
+        <section class="home_gallery_area p_120" class id = "projects">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>My Projects</h2>
+        			<p>Showcasing innovative projects where I've applied my skills in software development, machine learning, and computer vision to solve real-world problems.</p>
+        		</div>
+				<!--
+        		<div class="isotope_fillter">
+        			<ul class="gallery_filter list">
+						<li class="active" data-filter="*"><a href="#">All</a></li>
+						<li data-filter=".brand"><a href="#">Vector</a></li>
+						<li data-filter=".manipul"><a href="#">Raster</a></li>
+						<li data-filter=".creative"><a href="#">UI/UX</a></li>
+						<li data-filter=".design"><a href="#">Printing</a></li>
+					</ul>
+        		</div>
+				-->
+        	</div>
+        	<div class="container">
+        		<div class="gallery_f_inner row imageGallery1">
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-1.png"  width = 335px height = 300px alt="">
+        						<a class="light" href="https://github.com/Amit-Bhongiri" target ="_blank"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Object Recognition</h4>
+        						<p>Python, YOLO, OpenCV</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-2.png" width = 340px height = 340px alt="">
+        						<a class="light" href="https://github.com/Amit-Bhongiri" target ="_blank"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Chess with AI</h4>
+        						<p>HTML/CSS, JavaScript, Grok AI</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-3.png" width = 346px height = 340px alt="">
+        						<a class="light" href="https://github.com/Amit-Bhongiri" target ="_blank"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Stock Market Analyzer</h4>
+        						<p>MySQL, Python, Flask</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Home Gallery Area =================-->
+        
+        <!--================Testimonials Area =================-->
+        <section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Testimonials</h2>
+        			<p>Hear from peers and mentors about my dedication, skills, and impact on projects and collaborations.</p>
+        		</div>
+        		<div class="testi_inner">
+					<div class="testi_slider owl-carousel">
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+							</div>
+						</div>
+					</div>
+        		</div>
+        	</div>
+			<br>
+		<br>
+		<br>
+        </section>
+        <!--================End Testimonials Area =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
 </html>
